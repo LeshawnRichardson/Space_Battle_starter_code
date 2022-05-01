@@ -1,6 +1,6 @@
 .bodyContainer{
     display: flex;
-   
+    
     justify-content: space-between;
     height: 100vh;
     width: 100vw;
@@ -13,6 +13,14 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: black;
+}
+.mainCharacterView-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+
 }
 
 .mainCharacterView{
@@ -95,3 +103,56 @@ align-items: center;
     box-shadow: 0px 0px 20px 10px white;
 
 }
+
+#btn{
+    border: 1px solid white;
+    width: 25vw;
+    height: 10vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    box-shadow: 0px 0px 20px 10px white;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* ======== INSTRUCTION CSS ========= */
+
+#h1{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    margin: 100px auto;
+    font-family: 'Share Tech Mono', monospace;
+    background-size: 100%;
+    background-color: black;
+    color: red;
+}
+.instrContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* height: 100vh;
+    width: 100vw; */
+    margin: 0 50px;
+    font-family: 'Share Tech Mono', monospace;
+    font-size: 2em;
+    background-size: 100%;
+    background-color: black;
+    color: white;
+
+}
+#imgHero{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
