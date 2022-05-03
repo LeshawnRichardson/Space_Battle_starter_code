@@ -17,6 +17,11 @@
     text-align: center;
     color:red;
   }
+  #imgHero{
+    display: flex;
+    justify-content: center;
+    
+}
   .mainSection {
     display: flex;
     justify-content: space-between;

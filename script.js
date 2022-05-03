@@ -1,5 +1,4 @@
 
-//Create ship class w/constructor
 class Ship {
     constructor(name, hull, firepower, accuracy) {
         this.name = name;
@@ -7,20 +6,7 @@ class Ship {
         this.firepower = firepower;
         this.accuracy = accuracy;
     }
-// const btnPlay = document.querySelector('#btn')
 
-// btnPlay.addEventListener('click', promptFunction)
-
-
-// function promptFunction() {
-//     let player = prompt("Please enter your name", " ");
-//     if (player != null) {
-
-//         document.getElementById("demo").innerHTML =
-//             "Hello " + player + " Let play!";
-//         window.open(game.html)
-//     }
-// }
 
     // Method to calc accuracy of hit
     hitAccuracy() {
@@ -61,6 +47,14 @@ const disableBtns = () => {
 
 const pushText = (text) => {
     attackText.innerHTML += text;
+}
+
+const player = (prompt) =>{
+    prompt("Enter your name!");
+    if(person !=null){
+    
+        document.getElementById('idBattleText').innerHTML = `Hello ${playerName} Let's Battle!!`
+    }
 }
 
 const reset = () => {
